@@ -41,7 +41,8 @@
 (setq treesit-language-source-alist
       '((bash "https://github.com/tree-sitter/tree-sitter-bash")
         (python "https://github.com/tree-sitter/tree-sitter-python")
-        (typst "https://github.com/uben0/tree-sitter-typst")))
+        (typst "https://github.com/uben0/tree-sitter-typst")
+        (sage "https://github.com/havarddj/tree-sitter-sage")))
 
 ;; Start Emacs maximized
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
